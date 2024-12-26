@@ -61,9 +61,8 @@ if st.session_state.repo_submitted:
     if st.session_state.issue_submitted:
         repo = st.session_state.repo  
         
-        # 각 항목이 너무 길기때문에 검색 키워드만 추출하는 코드. 개발과제!!
-        query_lst=['FileNotFoundError','FileNotFoundError']
-        #re.findall(r'\b\w*error\w*\b', c3, flags=re.IGNORECASE)
+        # 각 항목이 너무 길기때문에 검색 키워드만 추출하는 코드.
+        query_lst=re.findall(r'\b\w*error\w*\b', c3, flags=re.IGNORECASE)
         df_lst=[]
 
         for query in query_lst:
