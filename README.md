@@ -43,14 +43,14 @@
 3. 사용자 이슈 데이터와 수집된 이슈들 각각의 유사도 비교 및 가장 유사한 이슈 산출(내부로직)
 4. 최종결과 출력<br>
 ![image](https://github.com/user-attachments/assets/ad5f9a26-50b2-4313-a545-714c834f15b8)
-<br>
+
 - OpenAI API를 활용해 이슈의 제목, 상세 내용, 에러 해결법 요약<br>
 - 사용자가 요약된 것을 읽어보고 본인의 이슈와는 맞지 않다고 판단할 경우를 대비해, "새 이슈 등록" <br>
 <br>
 
 ## 기술 스택
 - 서버 로직: Python, Streamlit 라이브러리
-- 외부 API 사용: GitHub Developer API, OpenAI API, API Key, 외부 API
+- 외부 API 사용: GitHub Developer API, OpenAI API
 <br>
 
 ## 데모영상 
