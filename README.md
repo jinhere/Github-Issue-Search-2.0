@@ -49,7 +49,7 @@
 <br>
 
 ## 기술 스택
-- 서버 로직: Python, Streamlit 라이브러리
+- 서버, 클라이언트 구현: Python, Streamlit 라이브러리
 - 외부 API 사용: GitHub Developer API, OpenAI API
 <br>
 
